@@ -10,7 +10,17 @@ A Auto General Uml Graph Tool Base on plantuml!
 - java（环境）
 - plantuml
 
-# 语法
+# 用法
 ```shell
 # lua.exe lua-plantuml.lua uml_dir
 ```
+
+# 测试uml
+```uml
+@startuml
+e1->b1:zactest request
+e1<-b1:zactest response
+@enduml
+```
+# 目标文件
+![image](https://github.com/xiyoo0812/lplantuml/blob/master/example/test.png)
