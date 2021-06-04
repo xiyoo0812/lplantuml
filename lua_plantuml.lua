@@ -23,7 +23,7 @@ local function export_plantuml(input_dir)
             export_plantuml(input_name)
             goto continue
         end
-		os.execute(string.format("java -jar %s %s", plantuml_jar, input_name))
+        os.execute(string.format("java -jar %s %s", plantuml_jar, input_name))
         :: continue ::
     end
 end
