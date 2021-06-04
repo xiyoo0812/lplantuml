@@ -8,7 +8,7 @@ A Auto General Uml Graph Tool Base on plantuml!
 - lua
 - lfs
 - java（环境）
-- plantuml
+- plantuml（https://plantuml.com/zh/）
 
 # 用法
 ```shell
